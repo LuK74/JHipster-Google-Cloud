@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "invoice", "notification"],
+    "directoryPath": "../",
+    "clusteredDbApps": ["notification"],
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "NzM0ZWVjYzY1ODE3NTgwOTU5NGEwNjY4MTc5ZTliZDdiNjQ0YzBhMWRmYzMxZjY5YzA3NDU1MDVlYTJmM2VjMGZiYjU5MzljMzQyOTQxYTk1NWFlMzk0MTE0OTlkZTMxZWY5MQ==",
+    "dockerRepositoryName": "luk74",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "store",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "prometheus",
+    "istio": false
+  }
+}

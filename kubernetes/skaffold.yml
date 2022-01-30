@@ -1,0 +1,18 @@
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+    - image: luk74/gateway
+      context: ../gateway
+      jib: {}
+    - image: luk74/invoice
+      context: ../invoice
+      jib: {}
+    - image: luk74/notification
+      context: ../notification
+      jib: {}
+  tagPolicy:
+    envTemplate:
+      template: "{{.IMAGE_NAME}}:latest"
+deploy:
+  kustomize: {}

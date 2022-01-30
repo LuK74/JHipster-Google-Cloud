@@ -1,0 +1,52 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "clientFramework": "react",
+    "serverPort": "8080",
+    "serviceDiscoveryType": "eureka",
+    "skipUserManagement": false,
+    "withAdminUi": true,
+    "baseName": "store",
+    "buildTool": "gradle",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [],
+    "messageBroker": false,
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "testFrameworks": ["cypress"],
+    "websocket": false,
+    "enableGradleEnterprise": false,
+    "gradleEnterpriseHost": "",
+    "applicationType": "gateway",
+    "packageName": "com.jhipster.demo.store",
+    "packageFolder": "com/jhipster/demo/store",
+    "reactive": true,
+    "jhipsterVersion": "7.4.1",
+    "clientPackageManager": "npm",
+    "dtoSuffix": "DTO",
+    "entitySuffix": "",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "applicationIndex": 0,
+    "applications": {
+      "product": {
+        "serverPort": "8081",
+        "applicationIndex": 1
+      },
+      "invoice": {
+        "serverPort": "8082",
+        "applicationIndex": 2
+      },
+      "notification": {
+        "serverPort": "8083",
+        "applicationIndex": 3
+      }
+    }
+  }
+}
